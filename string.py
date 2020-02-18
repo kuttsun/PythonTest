@@ -76,8 +76,7 @@ print(f'{b:,.3f}')
 
 
 # 書式指定を変数で指定
-a = 1234
-b = -1.234
-digit = 10
-print(f'{a:>{digit}}')
-print(f'{b:>{digit}.1f}')
+epsilon = 1e-7
+print(epsilon)
+print(10/100*100)
+print(10/(100+epsilon)*100)
